@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Destination Hub</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>✈️ DESTINATION HUB</h1>
+    </header>
+    <main>
+      <div class="search-container">
+        <select id="search-input">
+          <option value="" disabled selected>Selecione um país...</option>
+          <optgroup label="América do Sul">
+            <option value="Argentina">Argentina</option>
+            <option value="Bolivia">Bolívia</option>
+            <option value="Brazil">Brasil</option>
+            <option value="Chile">Chile</option>
+            <option value="Colombia">Colômbia</option>
+            <option value="Ecuador">Equador</option>
+            <option value="Guyana">Guiana</option>
+            <option value="Paraguay">Paraguai</option>
+            <option value="Peru">Peru</option>
+            <option value="Suriname">Suriname</option>
+            <option value="Uruguay">Uruguai</option>
+            <option value="Venezuela">Venezuela</option>
+          </optgroup>
+          <optgroup label="Europa">
+            <option value="Albania">Albânia</option>
+            <option value="Germany">Alemanha</option>
+            <option value="Andorra">Andorra</option>
+            <option value="Austria">Áustria</option>
+            <option value="Belarus">Bielorrússia</option>
+            <option value="Belgium">Bélgica</option>
+            <option value="Bosnia and Herzegovina">Bósnia e Herzegovina</option>
+            <option value="Bulgaria">Bulgária</option>
+            <option value="Cyprus">Chipre</option>
+            <option value="Croatia">Croácia</option>
+            <option value="Denmark">Dinamarca</option>
+            <option value="Slovakia">Eslováquia</option>
+            <option value="Slovenia">Eslovênia</option>
+            <option value="Spain">Espanha</option>
+            <option value="Estonia">Estônia</option>
+            <option value="Finland">Finlândia</option>
+            <option value="France">França</option>
+            <option value="Greece">Grécia</option>
+            <option value="Hungary">Hungria</option>
+            <option value="Ireland">Irlanda</option>
+            <option value="Iceland">Islândia</option>
+            <option value="Italy">Itália</option>
+            <option value="Latvia">Letônia</option>
+            <option value="Liechtenstein">Liechtenstein</option>
+            <option value="Lithuania">Lituânia</option>
+            <option value="Luxembourg">Luxemburgo</option>
+            <option value="Malta">Malta</option>
+            <option value="Moldova">Moldávia</option>
+            <option value="Monaco">Mônaco</option>
+            <option value="Montenegro">Montenegro</option>
+            <option value="Norway">Noruega</option>
+            <option value="Netherlands">Países Baixos</option>
+            <option value="Poland">Polônia</option>
+            <option value="Portugal">Portugal</option>
+            <option value="United Kingdom">Reino Unido</option>
+            <option value="Czech Republic">República Tcheca</option>
+            <option value="Romania">Romênia</option>
+            <option value="San Marino">San Marino</option>
+            <option value="Sweden">Suécia</option>
+            <option value="Switzerland">Suíça</option>
+            <option value="Ukraine">Ucrânia</option>
+          </optgroup>
+        </select>
+        <button id="search-button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div id="loader" class="loader"></div>
+      <div id="countries-container" class="countries-container"></div>
+    </main>
+    <footer>
+      <p>&copy; 2025 Destination Hub</p>
+    </footer>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <div id="modal-news"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
