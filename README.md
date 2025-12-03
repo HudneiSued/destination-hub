@@ -29,8 +29,7 @@ Pra testar o Destination Hub na sua máquina, é bem simples. Você só precisa 
 
 3.  **Configure sua chave de API:**
 
-    - Crie um arquivo chamado `.env` na pasta principal do projeto.
-    - Dentro dele, cole a linha `NEWS_API_KEY="SUA_CHAVE_AQUI"` e troque `"SUA_CHAVE_AQUI"` pela sua chave da API do NewsData.io.
+    - Nesse caso, está configurada com a chave do meu perfil.
 
 4.  **Ligue o servidor:**
     Ainda no terminal, rode o comando:
